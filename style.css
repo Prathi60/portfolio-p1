@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: url('bg4.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: cursive;
+    color:cadetblue;
+    text-shadow: 2px 2px 4px white;
+
+}
+
+header p {
+    font-size: 1.2em;
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bio {
+    margin-top: 20px;
+    font-family: cursive;
+    
+}
+
+/* Skills Section */
+#skills {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: cursive;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+    font-family: cursive;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    text-decoration: underline;
+
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
